@@ -14,6 +14,8 @@
 		64B4CF501BAC1217004D0A96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B4CF4F1BAC1217004D0A96 /* Images.xcassets */; };
 		64B4CF531BAC1217004D0A96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B4CF511BAC1217004D0A96 /* LaunchScreen.xib */; };
 		64B4CF5F1BAC1217004D0A96 /* UIVisualEffectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4CF5E1BAC1217004D0A96 /* UIVisualEffectViewDemoTests.m */; };
+		64B4CF691BAC13C9004D0A96 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64B4CF681BAC13C9004D0A96 /* images.jpeg */; };
+		64B4CF6B1BAC24B8004D0A96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B4CF6A1BAC24B8004D0A96 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		64B4CF581BAC1217004D0A96 /* UIVisualEffectViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVisualEffectViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4CF5D1BAC1217004D0A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64B4CF5E1BAC1217004D0A96 /* UIVisualEffectViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVisualEffectViewDemoTests.m; sourceTree = "<group>"; };
+		64B4CF681BAC13C9004D0A96 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		64B4CF6A1BAC24B8004D0A96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B4CF6B1BAC24B8004D0A96 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		64B4CF361BAC1217004D0A96 = {
 			isa = PBXGroup;
 			children = (
+				64B4CF6A1BAC24B8004D0A96 /* QuartzCore.framework */,
 				64B4CF411BAC1217004D0A96 /* UIVisualEffectViewDemo */,
 				64B4CF5B1BAC1217004D0A96 /* UIVisualEffectViewDemoTests */,
 				64B4CF401BAC1217004D0A96 /* Products */,
@@ -81,6 +87,7 @@
 		64B4CF411BAC1217004D0A96 /* UIVisualEffectViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64B4CF681BAC13C9004D0A96 /* images.jpeg */,
 				64B4CF461BAC1217004D0A96 /* AppDelegate.h */,
 				64B4CF471BAC1217004D0A96 /* AppDelegate.m */,
 				64B4CF491BAC1217004D0A96 /* ViewController.h */,
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B4CF4E1BAC1217004D0A96 /* Main.storyboard in Resources */,
+				64B4CF691BAC13C9004D0A96 /* images.jpeg in Resources */,
 				64B4CF531BAC1217004D0A96 /* LaunchScreen.xib in Resources */,
 				64B4CF501BAC1217004D0A96 /* Images.xcassets in Resources */,
 			);
@@ -348,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIVisualEffectViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIVisualEffectViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +426,7 @@
 				64B4CF641BAC1217004D0A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64B4CF651BAC1217004D0A96 /* Build configuration list for PBXNativeTarget "UIVisualEffectViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				64B4CF671BAC1217004D0A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
